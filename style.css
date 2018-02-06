@@ -1,0 +1,40 @@
+* {
+margin: 0px;
+
+}
+body {
+    font-family: sans-serif;
+}
+
+/* Navigation bar */
+#wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+}
+
+#nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nav ul {
+    display: inline;
+    background-color: #fff;
+    padding: 10px;
+}
+#nav ul li {
+    display: inline;
+    text-align: left;
+}
+#nav ul li a {
+    font-size: 25px;
+    color: #555;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+#nav ul li a:hover {
+    color: #ccccff;
+}
+
