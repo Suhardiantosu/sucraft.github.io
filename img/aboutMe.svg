@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ width="204.9359"
+ height="112.341"
+ viewBox="0 0 54.222624 29.723556"
+ version="1.1"
+ id="svg16016"
+ sodipodi:docname="aboutMe.svg"
+ inkscape:version="0.92.2 (unknown)">
+<defs
+ id="defs16010">
+<clipPath
+ id="clipPath4256-4"
+ clipPathUnits="userSpaceOnUse">
+<path
+ inkscape:connector-curvature="0"
+ style="fill:#e6e6e6;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+ d="m 605.69336,103.63281 c -6.57859,7.55304 -14.75896,12.17058 -13.63672,33.8418 l 3.0293,108.08594 30.30468,-6.06055 -6.06054,-105.5625 11.11133,16.66797 15.6582,-16.66797 -19.69922,-24.74805 z m -34.69727,1.01172 -20.70898,5.55469 -19.69727,24.75 15.65625,16.66601 11.11329,-16.66601 -6.0625,105.56055 30.30468,6.06054 4.04102,-105.05664 c 4.54555,-27.3749 -6.3471,-30.04614 -14.64649,-36.86914 z"
+ id="path4258-4" />
+</clipPath>
+<clipPath
+ id="clipPath4269-2"
+ clipPathUnits="userSpaceOnUse">
+<path
+ inkscape:connector-curvature="0"
+ id="path4271-4"
+ d="m 546.76558,111.2689 v 4.64453 l 11.07227,19.64258 6.42773,-11.07226 z m 37.5625,0.50586 -17.5,13.21484 6.42774,11.07032 11.07226,-19.64258 z"
+ style="fill:#aa0000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+</clipPath>
+</defs>
+<sodipodi:namedview
+ id="base"
+ pagecolor="#ffffff"
+ bordercolor="#666666"
+ borderopacity="1.0"
+ inkscape:pageopacity="0.0"
+ inkscape:pageshadow="2"
+ inkscape:zoom="0.98994949"
+ inkscape:cx="39.736807"
+ inkscape:cy="67.734493"
+ inkscape:document-units="mm"
+ inkscape:current-layer="layer1"
+ showgrid="false"
+ units="px"
+ inkscape:pagecheckerboard="true"
+ borderlayer="true"
+ inkscape:window-width="1366"
+ inkscape:window-height="716"
+ inkscape:window-x="0"
+ inkscape:window-y="25"
+ inkscape:window-maximized="1"
+ inkscape:showpageshadow="false"
+ fit-margin-top="0"
+ fit-margin-left="0"
+ fit-margin-right="0"
+ fit-margin-bottom="0" />
+<metadata
+ id="metadata16013">
+<rdf:RDF>
+<cc:Work
+ rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type
+ rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title></dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g
+ inkscape:label="Layer 1"
+ inkscape:groupmode="layer"
+ id="layer1"
+ transform="translate(-17.522694,-216.9245)">
+<g
+ id="g10728"
+ transform="translate(-164.57329,-83.539504)">
+<text
+ id="text10713"
+ y="314.11395"
+ x="181.79964"
+ style="font-style:normal;font-weight:normal;font-size:18.39151001px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fff6d5;fill-opacity:1;stroke:none;stroke-width:1.14946938"
+ xml:space="preserve"><tspan
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#fff6d5;stroke-width:1.14946938"
+ y="314.11395"
+ x="181.79964"
+ id="tspan10711"
+ sodipodi:role="line"><tspan
+ id="tspan10715"
+ style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:monospace;-inkscape-font-specification:'monospace Bold';stroke-width:1.14946938">ABOUT</tspan></tspan></text>
+<text
+ xml:space="preserve"
+ style="font-style:normal;font-weight:normal;font-size:18.39151001px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fff6d5;fill-opacity:1;stroke:none;stroke-width:1.14946938"
+ x="181.79964"
+ y="330.18756"
+ id="text10721"><tspan
+ sodipodi:role="line"
+ id="tspan10719"
+ x="181.79964"
+ y="330.18756"
+ style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;fill:#fff6d5;stroke-width:1.14946938">ME</tspan></text>
+</g>
+</g>
+</svg>

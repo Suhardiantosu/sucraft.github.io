@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+p {
+    margin: 30px;
+    text-align: center;
+}
+
+/* Navigation bar */
+
+#wrapper {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#ffdd55;
+}
+
+#nav {
+    top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#nav ul {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.385);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#nav ul li {
+    display: inline;
+    text-align: left;
+}
+
+#nav ul li a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+
+#nav ul li a:hover {
+    color: #ccccff;
+}
+
+.para {
+    padding: 250px 45px;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    padding: 10px;
+    border-radius: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline;
+    text-align: center;
+    color:#a7edff;
+    background: #fff;
+
+
+}
+.desc {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: #fff solid;
+    border-width: 1px;
+    padding: 20px;
+    padding-top: 30px;
+    color: #fff;
+
+}
+
+.aboutme {
+    display: inline;
+    color: rgb(65, 2, 0);
+}
+
+.aboutme h4 {
+    text-align: center;
+    padding-top: 10px;
+}
+.aboutme h1 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.paraPics {
+    position: absolute;
+
+}
+.sun {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 400px;
+    z-index: 1;
+}
+.eyeSun {
+    position: absolute;
+    width: 91px;
+    height: auto;
+    margin-top: 180px;
+    margin-left: 450px;
+    z-index: 2;
+    animation: blinking 3s infinite;
+}
+@keyframes blinking {
+    0%,
+    80% {
+        transform: scaleY(1);
+    }
+    85% {
+        transform: scaleY(0);
+    }
+    90% {
+        transform: scaleY(1);
+    }
+    95% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+.beachHome {
+    position: sticky;
+    width: 100%;
+    margin-top: -128px;
+    z-index: 2;
+}
+.meYouHome {
+    position: sticky;
+    margin-left: 810px;
+    height: 300px;
+    margin-top: -300px;
+    z-index: 3;
+}
+
+/* flexbox */
+.container {
+    background: #f1f1f1;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.block {
+    width: 30%;
+}
+.one {
+    color: red;
+}
+.two {
+    color: green;
+    order: 1; /* this command use to order class to where that flow order*/
+}
+.three {
+    color: blue;
+}
