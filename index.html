@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>susCraft</title>
-    <link href="css/style.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/smoothlyScroll.js"></script>
+    <script src="js/animationPolyfill.js"></script>
+    <script src="js/eyes.js"></script>
+    <script src="js/portGallery.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,110 +20,109 @@
         <div id="nav">
             <ul>
                 <li>
-                    <a href="#">about</a>
+                    <a href="#about">about</a>
                 </li>
                 <li>
-                    <a href="#">portfolio</a>
+                    <a href="#myPortfolio">portfolio</a>
                 </li>
                 <li>
-                    <a href="#">contact</a>
+                    <a href="https://fridsu.wordpress.com">blog</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
                 </li>
             </ul>
         </div>
-        <div class="paraPics">
-            <!-- layer 1 -->
-            <div>
-                <img class="sun" src="img/sunHome.svg" alt="matahari">
-                <img class="eyeSun" src="img/eyeSunHome.svg" alt="#">
+        <section class="move-area">
+            <div class="home">
+                <canvas id="eyes"></canvas>
             </div>
-        </div>
+        </section>
+        <section>
+            <div class="home">
+                <img src="img/home.svg" alt="my profile">
+            </div>
+        </section>
+        <section>
+            <div class="about" id="about">
+                <img src="img/about.svg" alt="my profile">
+            </div>
+        </section>
+        <!-- Portfolio gallery -->
+        <section>
+            <div class="toolbar mb2 mt2" id="myPortfolio">
+                <button class="btn fil-cat" href="" data-rel="all">All</button>
+                <button class="btn fil-cat" data-rel="web">Websites</button>
+                <button class="btn fil-cat" data-rel="flyers">Flyers</button>
+                <button class="btn fil-cat" data-rel="bcards">Business Cards</button>
+            </div>
 
-        <div class="para" data-parallax="scroll" data-z-index="1" data-image-src="img/backHome.svg">
-            <h1 class="info title">susCraft</h1>
-            <p class="info desc">Halaman ini sedang dalam pengembangan, this page is still under developing. 
-            Halaman ini sedang dalam pengembangan, this page is still under developing.
-            Halaman ini sedang dalam pengembangan, this page is still under developing.
-            Halaman ini sedang dalam pengembangan, this page is still under developing.</p>
-        </div>
-        <div class="beach">
-            <img class="beachHome" src="img/beachHome.svg" alt="sands of beach">
-            <img class="meYouHome" src="img/meYouHome.svg" alt="me and you ever">
-        </div>
-        <div class="aboutme">
-            <h4>ABOUT ME</h4>
-            <h1>WHO AM I</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit minima amet atque ducimus suscipit explicabo
-                perspiciatis iste reiciendis et est consectetur laboriosam, libero tempore fugiat! Nam magni recusandae voluptatum
-                ipsum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate obcaecati, quibusdam, illo ipsa
-                voluptatibus fuga veritatis fugit dignissimos dolor accusamus, ea tempore? Impedit neque enim, possimus eum
-                quibusdam nesciunt nisi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, iure magni
-                labore quia reiciendis omnis natus aut temporibus quis delectus enim totam sed reprehenderit provident voluptatibus
-                nihil sequi culpa odio.
-            </p>
-            <div class="container">
-                <div class="block one">
-                    <H2>Designer</H2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, porro voluptate animi fuga dignissimos
-                        quas labore, sit inventore eligendi praesentium laborum deserunt temporibus harum nemo quidem omnis
-                        a dolorem commodi!
-                    </p>
+            <div id="portfolio">
+                <div class="tile scale-anm web all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/2-mon_1092-300x234.jpg" alt="" />
                 </div>
-                <div class="block two">
-                    <H2>Coder</H2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, porro voluptate animi fuga dignissimos
-                        quas labore, sit inventore eligendi praesentium laborum deserunt temporibus harum nemo quidem omnis
-                        a dolorem commodi!
-                    </p>
+                <div class="tile scale-anm bcards all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/jti-icons_08-300x172.jpg" alt="" />
                 </div>
-                <div class="block three">
-                    <H2>Hobbyist</H2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, porro voluptate animi fuga dignissimos
-                        quas labore, sit inventore eligendi praesentium laborum deserunt temporibus harum nemo quidem omnis
-                        a dolorem commodi!
-                    </p>
+                <div class="tile scale-anm web all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm web all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/codystretch-300x270.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm flyers all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
+                </div>
+                <div class="tile scale-anm bcards all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
+                </div>
+                <div class="tile scale-anm flyers all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/jti-icons_08-300x172.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm flyers all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/transmission_01-300x300.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm web all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
+                </div>
+                <div class="tile scale-anm flyers all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
+                </div>
+                <div class="tile scale-anm web all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/the-ninetys-brand_02-300x300.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm bcards all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/15-dia_1092-1-300x300.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm web all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
+                </div>
+                <div class="tile scale-anm bcards all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm web all">
+                    <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/transmission_01-300x300.jpg" alt="" />
+                </div>
+                <div class="tile scale-anm web all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
+                </div>
+                <div class="tile scale-anm bcards all">
+                    <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
                 </div>
             </div>
-        </div>
-        <div class="portfolio">
-            <h1>PORTFOLIO</h1>
-            <div>
-                <h1>Designs</h1>
-                <!-- images slider in here -->
-                <!-- with fulltext caption -->
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore eum nihil laboriosam. Neque expedita temporibus
-                    deleniti quos laborum, magnam nulla molestias rerum a error eligendi laboriosam natus delectus eveniet
-                    quibusdam!
-                </p>
-                <a href="#">my Gallery</a>
+
+            <div style="clear:both;"></div>
+
+            <div class="quote">
+                <img src="img/myQuote.svg" alt="quotes">
             </div>
-            <div>
-                <h1>Codes</h1>
-                <!-- images slider in here -->
-                <!-- with fulltext caption -->
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sint, harum asperiores esse assumenda,
-                    dolor quaerat tenetur ducimus voluptatem, beatae non error! Similique tempora at error sint aspernatur
-                    quam facere?
-                </p>
-                <a href="#">view my Github</a>
-            </div>
-            <div>
-                <h1>Hobby</h1>
-                <!-- images slider in here -->
-                <!-- with fulltext caption -->
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur sint, harum asperiores esse assumenda,
-                    dolor quaerat tenetur ducimus voluptatem, beatae non error! Similique tempora at error sint aspernatur
-                    quam facere?
-                </p>
-                <a href="#">view more about my hobby</a>
-            </div>
-            <div class="contact">
-                <h1>CONTACT ME</h1>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad perferendis illum quam voluptatum animi cum
-                    aliquid quae inventore deleniti quo placeat, optio molestias similique ipsum repudiandae amet quibusdam
-                    itaque voluptatibus!</P>
-            </div>
-        </div>
+            <section>
+                <div class="contact" id="contact">
+                    <img src="img/contact.svg" alt="contact">
+                </div>
+            </section>
     </div>
+
 </body>
 
 </html>
