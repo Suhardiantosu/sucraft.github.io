@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    margin: 30px 0px 0px 0px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    position: relative;
+    font-size: 50pt;
+    color: rgb(147, 147, 147);
+}
+
+/* NAV */
+
+#nav {
+    position: relative;
+    text-align: center;
+}
+
+#nav ul {
+    margin-left: -35px;
+    margin-bottom: 30px;
+}
+
+#nav ul li {
+    display: inline;
+}
+
+#nav ul li a {
+    font-family: 'Ubuntu Condensed', Arial, sans-serif;
+    font-size: 12pt;
+    color: #ad9767;
+    text-decoration: none;
+    padding: 3px 12px;
+}
+
+#nav ul li a:hover {
+    color: rgb(147, 147, 147);
+}
+
+/* Content */
+.photo-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    background-image: url('img/me.jpg');
+    padding: 5px;
+    border: solid 2px #ad9767;
+}
+
+.photo-container {
+    color: rgb(147, 147, 147);
+    width: 40vw;
+    margin: 30px auto 30px auto;
+}
+
+/* Footer */
+
+#socialClick {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: 0;
+    color: #ad9767;
+}
+
+.fa-instagram:hover {
+    color: #e4405f;
+}
+
+.fa-dribbble:hover {
+    color: #ea4c89;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-github:hover {
+    color: #333;
+}
+
+#footer {
+    position: relative;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: rgb(147, 147, 147);
+}
