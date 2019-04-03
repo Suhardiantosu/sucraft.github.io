@@ -142,6 +142,40 @@ body {
     padding: 0;
 }
 
+.lihat-banyak {
+    position: relative;
+    text-align: center;
+}
+.more {
+    font-family: 'Ubuntu Condensed';
+    font-size: 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 0;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: #ad9767;
+    background-color: rgba(0, 0, 0, 0);
+    outline: #25D366;
+    border: solid 2px #ad9767;
+    box-shadow: 0 0 0 3px var(--darken-3);
+    -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+}
+.more:hover {
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+    border: solid 2px rgb(147, 147, 147);
+    border-radius: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+     transition-duration: 0.4s;
+}
 /* Footer */
 
 #socialClick {
